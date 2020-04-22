@@ -25,7 +25,7 @@ def assembled_matrix
   array = [
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE]
-   array.sort
+   array
 end
 
 def sorted_matrix
