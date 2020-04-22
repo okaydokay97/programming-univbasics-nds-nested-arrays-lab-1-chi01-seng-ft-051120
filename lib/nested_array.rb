@@ -23,9 +23,9 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   array = [
-    CONVENTIONAL_PRODUCE.sort,
-    ORGANIC_PRODUCE.sort]
-   array
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE]
+   array.sort
 end
 
 def sorted_matrix
